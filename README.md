@@ -16,7 +16,7 @@ After asking further clarifying questions to key stakeholders, the following pri
 The solution aimed to transform Meta’s fragmented analytics into a unified, intelligent BI ecosystem by integrating data feeds through a streamlined ETL process and structuring them into a robust, scalable data model, resulting in a Power BI dashboard—an on-brand, consolidated analytics platform that delivers real-time visibility, intuitive exploration, and a single source of truth, eliminates manual calculations and inconsistent reporting, and provides a solid foundation to address the key questions identified by stakeholders.
 
 ## Techstack 
-- Chatgpt + Meta Ads Library (Data Collection)
+- Chatgpt + Meta Ads Manager (Data Collection)
 - SQL (ETL + Exploratory Analysis)
 - Python (ETL + AI Report)
 - Figma (UI/UX Design)
@@ -24,7 +24,7 @@ The solution aimed to transform Meta’s fragmented analytics into a unified, in
 - OpenAI API (AI Report)
 
 ## 1. Data Collection
-Dummy data was created based on the structure of a Meta Ads Library export for a fictitious supplement brand. This dataset mirrors the fields, formats, and relationships typically found in a real Meta export, ensuring realistic testing and development conditions. LINK
+Dummy data was created based on the structure of a Meta Ads Manager export for a fictitious supplement brand. This dataset mirrors the fields, formats, and relationships typically found in a real Meta export, ensuring realistic testing and development conditions. LINK
 
 ## 2. Exploratory Analysis
 

@@ -1,4 +1,3 @@
-![Alt text](/Pictures/Overview Page.png)
 # Meta Ads Analysis - Fictive Supplement Brand
 This project showcases how raw digital advertising data can be transformed into clear, actionable insights using Python, SQL, Power BI, and AI-assisted analytics. It originated from a client proposal that didn’t move forward, so the concept was developed into a full portfolio demonstration of data-driven marketing intelligence.
 
@@ -32,6 +31,7 @@ Dummy data was created based on the structure of a Meta Ads Library export for a
 ## 3. Extract, Transform, Load (ETL)
 
 ## 4. Dashboard Design 
+![Alt text](/Pictures/Overview Page.png)
 
 
 ## Conclusions 

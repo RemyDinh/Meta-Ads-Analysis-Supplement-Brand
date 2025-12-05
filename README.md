@@ -2,22 +2,7 @@
 This project showcases how raw digital advertising data can be transformed into clear, actionable insights using Python, SQL, Power BI, and AI-assisted analytics. It originated from a client proposal that didn’t move forward, so the concept was developed into a full portfolio demonstration of data-driven marketing intelligence.
 
 ## Project Goal
-The customer faced critical challenges with inefficient budget allocation, limited strategic focus on high-value customers, and difficulty identifying long-term performance trends. Meta’s fragmented and user-unfriendly platform compounded these issues, requiring manual calculations of key metrics like Break-even ROAS and Profit. This highlighted the need for a unified, on-brand BI solution to create a single source of truth.
-
-Primary Goal:
-Optimize Meta ad campaigns by analyzing performance, spend efficiency, and ROI to deliver actionable recommendations.
-
-Key Questions:
-
-Which campaigns, ad sets, or ads generate the highest revenue and profit?
-
-Which ads are underperforming relative to spend?
-
-How do performance metrics evolve over time (daily, weekly, monthly)?
-
-Which countries, age groups, or genders respond best to specific campaigns?
-
-What strategies can scale high-performing ads or reallocate budget effectively?
+The customer faced critical challenges with inefficient budget allocation, limited strategic focus on high-value customers, and difficulty identifying long-term performance trends. Meta’s fragmented and user-unfriendly platform compounded these issues, requiring manual calculations of key metrics like Break-even ROAS and Profit. This highlighted the need for a unified, on-brand BI solution to create a single source of truth.?
 
 ## Solution Overview
 The solution centered on transforming Meta’s fragmented analytics into a unified and intelligent BI ecosystem. Meta data feeds were integrated through a streamlined ETL process, then structured into a robust and scalable data model.

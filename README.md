@@ -31,7 +31,10 @@ Dummy data was created based on the structure of a Meta Ads Library export for a
 ## 3. Extract, Transform, Load (ETL)
 
 ## 4. Dashboard Design 
-![Overview Page](/Pictures/1.%20Overview%20Page.png)
+![Overview](/Pictures/1.%20Overview%20Page.png)
+![Costs & ROI](/Pictures/2.%20Costs%20&%20ROI%20Page.png)
+![Segmentation](/Pictures/3.%20Segmentation%20Page.png)
+![Trends](/Pictures/4.%20Trends%20Page.png)
 
 
 ## Conclusions 

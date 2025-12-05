@@ -17,7 +17,7 @@ The solution focused on transforming Meta’s fragmented analytics into a unifie
 
 From this foundation, a key output was delivered:
 
-Power BI Dashboard – an on-brand, consolidated analytics experience that provides real-time visibility, intuitive exploration, and a single source of truth, eliminating the need for manual calculations and inconsistent reporting.ps.
+Power BI Dashboard – an on-brand, consolidated analytics experience that provides real-time visibility, intuitive exploration, and a single source of truth, eliminating the need for manual calculations and inconsistent reporting.
 
 ## Collection
 Dummy data was created based on the structure of a Meta Ads Library export for a fictitious supplement brand. This dataset mirrors the fields, formats, and relationships typically found in a real Meta export, ensuring realistic testing and development conditions. LINK

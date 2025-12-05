@@ -1,5 +1,5 @@
 # Meta Ads Analysis - Supps&
-This project showcases how raw digital advertising data can be transformed into clear, actionable insights using Python, SQL, Power BI. It originated from a client proposal that didn’t move forward, so the concept was developed into a full portfolio demonstration of data-driven marketing intelligence based on a dummy supplement company.
+This project showcases how raw digital advertising data can be transformed into clear, actionable insights using Python, SQL, Power BI. It originated from a client proposal that didn’t move forward, so the concept was developed into a full portfolio demonstration of data-driven marketing intelligence based on a fictive supplement company.
 
 ## Project Goal
 The customer faced significant challenges, including inefficient budget allocation, limited strategic focus on high-value customers, and difficulty identifying long-term performance trends. These issues were compounded by Meta’s fragmented and unintuitive platform, which forced internal analysts to rely on manual calculations and produce slow, inconsistent reports. This underscored the need for a unified, on-brand BI solution that could serve as a single source of truth.

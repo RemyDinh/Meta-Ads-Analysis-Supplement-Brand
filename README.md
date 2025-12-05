@@ -13,11 +13,7 @@ After asking further clarifying questions to key stakeholders, the following pri
 - hat strategies can scale high-performing ads or reallocate budget effectively?
 
 ## Solution Overview
-The solution focused on transforming Meta’s fragmented analytics into a unified and intelligent BI ecosystem. Meta data feeds were integrated through a streamlined ETL process and structured into a robust, scalable data model.
-
-From this foundation, a key output was delivered:
-
-Power BI Dashboard – an on-brand, consolidated analytics experience that provides real-time visibility, intuitive exploration, and a single source of truth, eliminating the need for manual calculations and inconsistent reporting.
+The solution aimed to transform Meta’s fragmented analytics into a unified, intelligent BI ecosystem by integrating data feeds through a streamlined ETL process and organizing them into a robust, scalable data model, resulting in a Power BI dashboard, an on-brand, consolidated analytics platform that provides real-time visibility, intuitive exploration, and a single source of truth, eliminating manual calculations and inconsistent reporting.
 
 ## Techstack 
 - Chatgpt + Meta Ads Library (Data Collection)

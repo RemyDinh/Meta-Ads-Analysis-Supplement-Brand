@@ -13,15 +13,14 @@ After asking further clarifying questions to key stakeholders, the following pri
 - hat strategies can scale high-performing ads or reallocate budget effectively?
 
 ## Solution Overview
-The solution centered on transforming Meta’s fragmented analytics into a unified and intelligent BI ecosystem. Meta data feeds were integrated through a streamlined ETL process, then structured into a robust and scalable data model.
+The solution focused on transforming Meta’s fragmented analytics into a unified and intelligent BI ecosystem. Meta data feeds were integrated through a streamlined ETL process and structured into a robust, scalable data model.
 
-From this foundation, two key outputs were delivered:
+From this foundation, a key output was delivered:
 
-1. Power BI Dashboard – an on-brand, consolidated analytics experience providing real-time visibility, intuitive exploration, and a single source of truth.
-2. AI-Generated Report – an automated, narrative-style insights report that detects trends, highlights performance drivers, and eliminates manual analysis and write-ups.
+Power BI Dashboard – an on-brand, consolidated analytics experience that provides real-time visibility, intuitive exploration, and a single source of truth, eliminating the need for manual calculations and inconsistent reporting.ps.
 
 ## Collection
-Dummy data was created based on the structure of a Meta Ads Library export for a fictitious supplement brand. This dataset mirrors the fields, formats, and relationships typically found in a real Meta export, ensuring realistic testing and development conditions. 
+Dummy data was created based on the structure of a Meta Ads Library export for a fictitious supplement brand. This dataset mirrors the fields, formats, and relationships typically found in a real Meta export, ensuring realistic testing and development conditions. LINK
 
 ## Techstack
 - Chatgpt + Meta Ads Library (Data Collection)
@@ -30,3 +29,13 @@ Dummy data was created based on the structure of a Meta Ads Library export for a
 - Figma (UI/UX Design)
 - PowerBI (Data model + Dashboarding)
 - OpenAI API (AI Report)
+
+## Exploratory Analysis
+
+## Extract, Transform, Load (ETL)
+
+## Dashboard Design 
+
+
+## Conclusions 
+

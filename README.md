@@ -21,7 +21,6 @@ The solution aimed to transform Meta’s fragmented analytics into a unified, in
 - Python (ETL + AI Report)
 - Figma (UI/UX Design)
 - PowerBI (Data model + Dashboarding)
-- OpenAI API (AI Report)
 
 ## 1. Data Collection
 Dummy data was created based on the structure of a Meta Ads Manager export for a fictitious supplement brand. This dataset mirrors the fields, formats, and relationships typically found in a real Meta export, ensuring realistic testing and development conditions. LINK

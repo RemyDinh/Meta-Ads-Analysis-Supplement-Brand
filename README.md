@@ -29,7 +29,7 @@ Dummy data was created based on the structure of a Meta Ads Manager export for a
 Since the data came from a single source (Meta Ads Manager) and thus is relatively well structured and consistent at its core, the exploratory analysis was fairly straightforward but still essential. Using a set of SQL queries, I assessed the data’s quality, structure, consistency, volume, and distribution. This stage focused on determining whether the data was useful and sufficient to answer the business questions, rather than on generating insights.
 
 ### Exploratory Analysis Conclusion
-The code this analysis was based on can be found in FILE
+The queries this analysis was based on can be found in FILE
 
 The dataset is complete, consistent, and structured by Date × Campaign × Ad_Set × Ad × Country × Age_Group × Gender. Minor rounding in metrics (CTR, CPC, Cost_per_Conversion) was observed, so these will be recalculated in the dashboard. Based on this analysis, the ETL and data model decisions were:
 

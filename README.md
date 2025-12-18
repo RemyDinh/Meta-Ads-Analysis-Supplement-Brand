@@ -29,16 +29,17 @@ Dummy data was created based on the structure of a Meta Ads Manager export for a
 Since the data came from a single source (Meta Ads Manager) and thus is relatively well structured and consistent at its core, the exploratory analysis was fairly straightforward but still essential. Using a set of SQL queries, I assessed the data’s quality, structure, consistency, volume, and distribution. This stage focused on determining whether the data was useful and sufficient to answer the business questions, rather than on generating insights.
 
 ### Exploratory Analysis Conclusion
-The queries this analysis was based on can be found in FILE
+See file for the sql queries
 
-The dataset is complete, consistent, and structured by Date × Campaign × Ad_Set × Ad × Country × Age_Group × Gender. Minor rounding in metrics (CTR, CPC, Cost_per_Conversion) was observed, so these will be recalculated in the dashboard. Based on this analysis, the ETL and data model decisions were:
+The dataset contains 208,512 rows, covering 181 days, 4 campaigns, 12 ad sets, 36 ads, 4 countries, 4 age groups, and 2 genders, with perfectly balanced distribution across dimensions. All key metrics (Impressions, Clicks, Spend, Conversions, Revenue) are complete, and no zero-revenue-with-conversions cases were found. Minor rounding differences were observed in CTR and CPC, so these will be recalculated in dashboards.
+
+Based on these findings, the ETL and data model decisions were:
 
 - Created a star schema, separating dimensions (Campaign, Ad_Set, Ad, Date, Country, Age_Group, Gender) from the fact table.
 
-- Fact table contains numeric metrics (Impressions, Clicks, Spend, Conversions, Revenue) at the fine-grained level.
+- Fact table stores numeric metrics at the fine-grained level.
 
-- This approach was chosen because of the large dataset with many categorical variables and to ensure smooth, fast reporting in dashboards.
-
+- This design ensures efficient queries and smooth reporting, especially given the large, categorical-heavy dataset.
 
 
 ## 3. Extract, Transform, Load (ETL)

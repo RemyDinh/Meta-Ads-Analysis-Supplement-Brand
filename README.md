@@ -26,6 +26,20 @@ The solution aimed to transform Meta’s fragmented analytics into a unified, in
 Dummy data was created based on the structure of a Meta Ads Manager export for a fictitious supplement brand. This dataset mirrors the fields, formats, and relationships typically found in a real Meta export, ensuring realistic testing and development conditions. LINK
 
 ## 2. Exploratory Analysis
+Since the data came from a single source (Meta Ads Manager) and thus is relatively well structured and consistent at its core, the exploratory analysis was fairly straightforward but still essential. Using a set of SQL queries, I assessed the data’s quality, structure, consistency, volume, and distribution. This stage focused on determining whether the data was useful and sufficient to answer the business questions, rather than on generating insights.
+
+# Exploratory Analysis Conclusion
+The code this analysis was based on can be found in FILE
+
+The dataset is complete, consistent, and structured by Date × Campaign × Ad_Set × Ad × Country × Age_Group × Gender. Minor rounding in metrics (CTR, CPC, Cost_per_Conversion) was observed, so these will be recalculated in the dashboard. Based on this analysis, the ETL and data model decisions were:
+
+- Created a star schema, separating dimensions (Campaign, Ad_Set, Ad, Date, Country, Age_Group, Gender) from the fact table.
+
+- Fact table contains numeric metrics (Impressions, Clicks, Spend, Conversions, Revenue) at the fine-grained level.
+
+- This approach was chosen because of the large dataset with many categorical variables and to ensure smooth, fast reporting in dashboards.
+
+
 
 ## 3. Extract, Transform, Load (ETL)
 

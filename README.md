@@ -44,6 +44,46 @@ Based on these findings, the ETL and data model decisions were:
 
 ## 3. Extract, Transform, Load (ETL)
 
+### Extraction & Initial Loading
+
+Imported CSV data into a Pandas DataFrame and connected to a SQLite database.
+
+Dataset contains 208,512 rows, balanced across campaigns, ad sets, ads, countries, age groups, and genders, with no missing key metrics.
+
+Replaced any existing table in SQLite to avoid duplicates and ensure a clean starting point.
+
+### Transformation
+
+Converted date and categorical columns to proper types.
+
+Calculated additional metrics for reporting:
+
+Profit = Revenue − Spend
+
+Conversion Rate = Conversions ÷ Clicks
+
+ROAS = Revenue ÷ Spend
+
+ROI = (Revenue − Spend) ÷ Spend
+
+Extracted time features (Year, Month, Week, Day of Week) from the Date column.
+
+Observed minor rounding issues in CTR and CPC, which will be recalculated in dashboards.
+
+### Modeling & Loading
+
+Created a star schema:
+
+Dimension tables: Date, Campaign, Ad Set, Ad, Country, Age Group, Gender
+
+Fact table: contains numeric metrics and foreign keys to all dimensions
+
+Joined dimensions with the fact table at the fine-grained level (Date × Campaign × Ad_Set × Ad × Country × Age_Group × Gender).
+
+Exported all tables as CSVs for ETL pipeline use and dashboard ingestion.
+
+This design ensures efficient querying and smooth reporting for a large, categorical-heavy dataset.
+
 ## 4. Dashboard Design 
 ![Overview](/Pictures/1.%20Overview%20Page.png)
 ![Costs & ROI](/Pictures/2.%20Costs%20&%20ROI%20Page.png)

@@ -83,7 +83,8 @@ Created a star schema:
 This design ensures efficient querying and smooth reporting for a large, categorical-heavy dataset.
 
 ## 4. Dashboard Design 
-1. Page Architecture & Key Visuals
+### Page Architecture & Key Visuals
+
 The dashboard follows a "Macro to Micro" logic, transitioning from high-level health to tactical details.
 
 - Overview: Focuses on the Spend vs. Revenue Trend. The line chart immediately identifies if scaling budget is driving proportional growth.
@@ -94,7 +95,8 @@ The dashboard follows a "Macro to Micro" logic, transitioning from high-level he
 
 - Trends: Utilizes Dual-Axis Charts to monitor long-term creative fatigue (CTR) and landing page efficiency (CVR) over time.
 
-2. Design System: UX & Aesthetics
+### Design System: UX & Aesthetics
+
 The design philosophy is built on clarity, brand alignment, and reduced cognitive load.
 
 - Strategic Palette: I used a Sage Green and Neutral palette to reflect the "Supps&" brand identity. This "natural" aesthetic makes high-density data feel less overwhelming and more approachable.

@@ -31,7 +31,7 @@ Since the data came from a single source (Meta Ads Manager) and thus is relative
 ### Exploratory Analysis Conclusion
 See file for all sql queries and outcomes
 
-The dataset contains 208,512 rows, covering 181 days, 4 campaigns, 12 ad sets, 36 ads, 4 countries, 4 age groups, and 2 genders, with perfectly balanced distribution across dimensions. All key metrics (Impressions, Clicks, Spend, Conversions, Revenue) are complete, and no zero-revenue-with-conversions cases were found. Minor rounding differences were observed in CTR and CPC, so these will be recalculated in dashboards.
+The dataset contains 208,512 rows, covering 181 days, 4 campaigns, 12 ad sets, 36 ads, 4 countries, 4 age groups, and 2 genders, with perfectly balanced distribution across dimensions. All key metrics (Impressions, Clicks, Spend, Conversions, Revenue) are complete, and no zero-revenue-with-conversions cases were found. Minor rounding differences were observed in CTR and CPC, so these will be recalculated in the ETL fase.
 
 Based on these findings, the ETL and data model decisions were:
 
@@ -54,41 +54,36 @@ Replaced any existing table in SQLite to avoid duplicates and ensure a clean sta
 
 ### Transformation
 
-Converted date and categorical columns to proper types.
+- Converted date and categorical columns to proper types.
 
-Calculated additional metrics for reporting:
+- Calculated additional metrics for reporting:
 
-Profit = Revenue − Spend
+1. Profit = Revenue − Spend
 
-Conversion Rate = Conversions ÷ Clicks
+2. Conversion Rate = Conversions ÷ Clicks
 
-ROAS = Revenue ÷ Spend
+3. ROAS = Revenue ÷ Spend
 
-ROI = (Revenue − Spend) ÷ Spend
+4 ROI = (Revenue − Spend) ÷ Spend
 
-Extracted time features (Year, Month, Week, Day of Week) from the Date column.
-
-Observed minor rounding issues in CTR and CPC, which will be recalculated in dashboards.
+5. Extracted time features (Year, Month, Week, Day of Week) from the Date column.
 
 ### Modeling & Loading
 
 Created a star schema:
 
-Dimension tables: Date, Campaign, Ad Set, Ad, Country, Age Group, Gender
+- Dimension tables: Date, Campaign, Ad Set, Ad, Country, Age Group, Gender
 
-Fact table: contains numeric metrics and foreign keys to all dimensions
+- Fact table: contains numeric metrics and foreign keys to all dimensions
 
-Joined dimensions with the fact table at the fine-grained level (Date × Campaign × Ad_Set × Ad × Country × Age_Group × Gender).
+- Joined dimensions with the fact table at the fine-grained level (Date × Campaign × Ad_Set × Ad × Country × Age_Group × Gender).
 
-Exported all tables as CSVs for ETL pipeline use and dashboard ingestion.
+- Exported all tables as CSVs for ETL pipeline use and dashboard ingestion.
 
 This design ensures efficient querying and smooth reporting for a large, categorical-heavy dataset.
 
 ## 4. Dashboard Design 
-![Overview](/Pictures/1.%20Overview%20Page.png)
-![Costs & ROI](/Pictures/2.%20Costs%20&%20ROI%20Page.png)
-![Segmentation](/Pictures/3.%20Segmentation%20Page.png)
-![Trends](/Pictures/4.%20Trends%20Page.png)
+
 
 
 ## Conclusions 

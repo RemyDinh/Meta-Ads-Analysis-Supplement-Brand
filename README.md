@@ -83,6 +83,28 @@ Created a star schema:
 This design ensures efficient querying and smooth reporting for a large, categorical-heavy dataset.
 
 ## 4. Dashboard Design 
+1. Page Architecture & Key Visuals
+The dashboard follows a "Macro to Micro" logic, transitioning from high-level health to tactical details.
+
+- Overview: Focuses on the Spend vs. Revenue Trend. The line chart immediately identifies if scaling budget is driving proportional growth.
+
+- Segmentation: Uses Bar Charts for Country and Demographics. This identifies the "Who" and "Where," allowing for precision targeting.
+
+- Costs & ROI: Features a Conversion Funnel to locate friction points and a Scatter Plot to instantly categorize ads into "Scale" or "Kill" based on the Break-even ROAS line.
+
+- Trends: Utilizes Dual-Axis Charts to monitor long-term creative fatigue (CTR) and landing page efficiency (CVR) over time.
+
+2. Design System: UX & Aesthetics
+The design philosophy is built on clarity, brand alignment, and reduced cognitive load.
+
+- Strategic Palette: I used a Sage Green and Neutral palette to reflect the "Supps&" brand identity. This "natural" aesthetic makes high-density data feel less overwhelming and more approachable.
+
+- Modular Layout: Each visual is housed in a rounded "Card" with ample whitespace. This creates a clear hierarchy, allowing the user to process one insight at a time without "data fatigue."
+
+- Intuitive Navigation: A consistent Sidebar and Filter placement (top-right) ensures a seamless user experience. Once the user learns Page 1, they can navigate the entire suite instinctively.
+
+- KPI Prioritization: I used High-Contrast Typography for core metrics. The most critical numbers (Profit, ROAS) are the largest elements on the screen, ensuring "glanceability."
+
 ![Dashboard Overview](Dashboard%20Pictures/Dashboard%20Overview%201.png)
 ![Dashboard Costs & ROI](Dashboard%20Pictures/Dashboard%20Costs%20%26%20ROI%202.png)
 ![Dashboard Segmentation](Dashboard%20Pictures/Dashboard%20Segmentation%203.png)

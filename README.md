@@ -84,6 +84,9 @@ This design ensures efficient querying and smooth reporting for a large, categor
 
 ## 4. Dashboard Design 
 ![Dashboard Overview](Dashboard%20Pictures/Dashboard%20Overview%201.png)
+![Dashboard Costs & ROI](Dashboard%20Pictures/Dashboard%20Costs%20%26%20ROI%202.png)
+![Dashboard Segmentation](Dashboard%20Pictures/Dashboard%20Segmentation%203.png)
+![Dashboard Trends](Dashboard%20Pictures/Dashboard%20Trends%204.png)
 
 ## Conclusions 
 

@@ -83,6 +83,7 @@ Created a star schema:
 This design ensures efficient querying and smooth reporting for a large, categorical-heavy dataset.
 
 ## 4. Dashboard Design 
+![Dashboard - Overview](Meta-Ads-Analysis-Supplement-Brand/Dashboard Pictures/Dashboard Overview 1.png)
 
 
 

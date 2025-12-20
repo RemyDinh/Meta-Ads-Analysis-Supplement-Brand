@@ -63,10 +63,10 @@ Replaced any existing table in SQLite to avoid duplicates and ensure a clean sta
 2. Conversion Rate = Conversions ÷ Clicks
 
 3. ROAS = Revenue ÷ Spend
+   
+5. ROI = (Revenue − Spend) ÷ Spend
 
-4 ROI = (Revenue − Spend) ÷ Spend
-
-5. Extracted time features (Year, Month, Week, Day of Week) from the Date column.
+6. Extracted time features (Year, Month, Week, Day of Week) from the Date column.
 
 ### Modeling & Loading
 

@@ -87,8 +87,8 @@ This design ensures efficient querying and smooth reporting for a large, categor
 
 The dashboard follows a "Macro to Micro" logic, transitioning from high-level health to tactical details.
 
-- Overview: Focuses on the Spend vs. Revenue Trend. The line chart immediately identifies if scaling budget is driving proportional growth.
-
+- Overview: Provides a high-level view of key profitability metrics and campaign-level performance. Designed for stakeholders who need quick, actionable insights to support decision-making without added complexity or the need for direct interaction with the dashboard.
+  
 - Segmentation: Uses Bar Charts for Country and Demographics. This identifies the "Who" and "Where," allowing for precision targeting.
 
 - Costs & ROI: Features a Conversion Funnel to locate friction points and a Scatter Plot to instantly categorize ads into "Scale" or "Kill" based on the Break-even ROAS line.

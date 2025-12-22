@@ -113,7 +113,7 @@ The design philosophy is built on clarity, brand alignment, and reduced cognitiv
 ![Dashboard Trends](Dashboard%20Pictures/Dashboard%20Trends%204.png)
 
 ## Conclusions 
-The dashboard and ETL process provides a stable system of Supps& to partake is data-driven decision making and to give stakeholder a clear, user-friendly medium to interact with their data. At the start of the project some main research questions were identified, which were often posed and the dashboard needed to be a source of truth for. Below are the insights connected to these questions: 
+The dashboard and ETL process provide a stable foundation for Supps& to engage in data-driven decision-making and offer stakeholders a clear, user-friendly way to interact with their data. At the start of the project, several key research questions were identified that were frequently raised and for which the dashboard needed to serve as a single source of truth. Below are the insights related to these questions:
 
 ### Overall Performance (Q1 & Q2)
 

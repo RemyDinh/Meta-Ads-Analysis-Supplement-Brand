@@ -89,11 +89,11 @@ The dashboard follows a "Macro to Micro" logic, transitioning from high-level he
 
 - Overview: Provides a high-level view of key profitability metrics and campaign-level performance. Designed for stakeholders who need quick, actionable insights to support decision-making without added complexity or the need for direct interaction with the dashboard.
   
-- Segmentation: Uses Bar Charts for Country and Demographics. This identifies the "Who" and "Where," allowing for precision targeting.
+- Costs & ROI: Provides insights into funnel performance and individual ad performance, and how they relate to each other. Allows users to further dissect results using campaign and month filters. Designed for users who want to analyze ad performance in more depth.
 
-- Costs & ROI: Features a Conversion Funnel to locate friction points and a Scatter Plot to instantly categorize ads into "Scale" or "Kill" based on the Break-even ROAS line.
+- Segmentation: Designed for users who want to go a step further by dissecting ad performance at a demographic level, allowing for better adjustment of ad targeting.
 
-- Trends: Utilizes Dual-Axis Charts to monitor long-term creative fatigue (CTR) and landing page efficiency (CVR) over time.
+- Trends: Designed for users who want to dive further into performance by analyzing results across time horizons. Enables better timing decisions, momentum and duration analysis, and seasonality insights for ads.
 
 ### Design System: UX & Aesthetics
 

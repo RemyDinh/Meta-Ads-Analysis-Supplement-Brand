@@ -6,11 +6,11 @@ The customer faced significant challenges, including inefficient budget allocati
 
 After asking further clarifying questions to key stakeholders, the following primary research questions were identified that the BI solution should address:
 
-Q1: Which campaigns, ad sets, or ads generate the highest revenue and profit?
-Q2: Which ads are underperforming relative to spend?
-Q3 How do performance metrics evolve over time (daily, weekly, monthly)?
-Q4: Which countries, age groups, or genders respond best to specific campaigns?
-Q5: What strategies can scale high-performing ads or reallocate budget effectively?
+- Q1: Which campaigns, ad sets, or ads generate the highest revenue and profit?
+- Q2: Which ads are underperforming relative to spend?
+- Q3 How do performance metrics evolve over time (daily, weekly, monthly)?
+- Q4: Which countries, age groups, or genders respond best to specific campaigns?
+- Q5: What strategies can scale high-performing ads or reallocate budget effectively?
 
 ## Solution Overview
 The solution aimed to transform Meta’s fragmented analytics into a unified, intelligent BI ecosystem by integrating data feeds through a streamlined ETL process and structuring them into a robust, scalable data model, resulting in a Power BI dashboard—an on-brand, consolidated analytics platform that delivers real-time visibility, intuitive exploration, and a single source of truth, eliminates manual calculations and inconsistent reporting, and provides a solid foundation to address the key questions identified by stakeholders.

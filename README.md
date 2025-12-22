@@ -151,4 +151,7 @@ The January spike in CTR and profit presents a clear opportunity. Further resear
 With ROAS consistent across markets, higher profitability is driven by conversion volume rather than efficiency differences. Increasing spend and improving localization in Germany and Belgium represents a scalable growth opportunity, allowing Supps& to diversify revenue while maintaining current performance levels.
 
 
+Remy Dinh - Last Edit 22-12-2025. For more information contact me on LinkedIn: https://www.linkedin.com/in/remydinh23/
+
+
 

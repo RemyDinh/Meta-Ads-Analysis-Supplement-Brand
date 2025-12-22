@@ -6,11 +6,11 @@ The customer faced significant challenges, including inefficient budget allocati
 
 After asking further clarifying questions to key stakeholders, the following primary research questions were identified that the BI solution should address:
 
-- Which campaigns, ad sets, or ads generate the highest revenue and profit?
-- Which ads are underperforming relative to spend?
-- How do performance metrics evolve over time (daily, weekly, monthly)?
-- Which countries, age groups, or genders respond best to specific campaigns?
-- What strategies can scale high-performing ads or reallocate budget effectively?
+Q1: Which campaigns, ad sets, or ads generate the highest revenue and profit?
+Q2: Which ads are underperforming relative to spend?
+Q3 How do performance metrics evolve over time (daily, weekly, monthly)?
+Q4: Which countries, age groups, or genders respond best to specific campaigns?
+Q5: What strategies can scale high-performing ads or reallocate budget effectively?
 
 ## Solution Overview
 The solution aimed to transform Meta’s fragmented analytics into a unified, intelligent BI ecosystem by integrating data feeds through a streamlined ETL process and structuring them into a robust, scalable data model, resulting in a Power BI dashboard—an on-brand, consolidated analytics platform that delivers real-time visibility, intuitive exploration, and a single source of truth, eliminates manual calculations and inconsistent reporting, and provides a solid foundation to address the key questions identified by stakeholders.
@@ -113,4 +113,42 @@ The design philosophy is built on clarity, brand alignment, and reduced cognitiv
 ![Dashboard Trends](Dashboard%20Pictures/Dashboard%20Trends%204.png)
 
 ## Conclusions 
+The dashboard and ETL process provides a stable system of Supps& to partake is data-driven decision making and to give stakeholder a clear, user-friendly medium to interact with their data. At the start of the project some main research questions were identified, which were often posed and the dashboard needed to be a source of truth for. Below are the insights connected to these questions: 
+
+### Overall Performance (Q1 & Q2)
+
+Across Q1 and Q2, Supps & Ads demonstrates stable and sustained profitability. The ad budget is distributed relatively evenly across campaigns, indicating a diversified investment approach. However, when evaluating performance outcomes, results are clearly skewed in favor of the re-push campaigns. This confirms that the current strategy is working as intended.
+
+Awareness-focused campaigns play a supporting role within the broader system by introducing and warming up new audiences. Re-push campaigns then retarget these users and successfully guide them toward a purchase decision. As such, lower ROAS on awareness campaigns should not be viewed as an issue when performance is assessed holistically rather than at the individual campaign level.
+
+At the individual ad and asset level, performance is generally stable. A small number of ads and ad sets stand out as underperformers and should be reviewed more critically to determine whether optimization or replacement is needed.
+
+The sales funnel itself is performing at a very high level. With a 6.61% click-through rate and a 5.28% conversion rate, performance significantly exceeds 2025 industry benchmarks for the health and wellness sector. This indicates that the ad creatives are highly engaging and that traffic is being directed to a landing page that converts with top-tier efficiency. Overall, the data reflects a well-structured funnel that effectively moves users from awareness to purchase.
+
+### Overall Performance (Q3 & Q4)
+
+The Netherlands is the primary profit-driving market for Supps&, followed by Germany and Belgium at roughly half that level, with Denmark contributing approximately half of those results. ROAS is consistent across markets, with higher profit in the Netherlands driven by greater conversion volume rather than efficiency differences.
+
+Performance is evenly split between male and female audiences in both ROAS and customer volume. Results across age groups are similarly consistent, with the 25–34 segment performing slightly better, though differences remain marginal. Over time, ad performance has been relatively stable; however, a gradual increase in cost per acquisition and a slight decline in ROAS are visible. Spend and profit closely track each other, indicating that overall ad effectiveness remains consistent. Notably, January shows an anomaly in CTR and profit, suggesting increased audience receptiveness, potentially driven by New Year resolution behavior.
+
+### Strategy Takeaways (Q5)
+
+From these analyses, four main strategic takeaways and follow-up actions were identified:
+
+#### 1. Scale Re-push Campaigns While Protecting Efficiency
+Re-push campaigns are the primary profit drivers and validate the current funnel strategy. The most immediate upside lies in systematically increasing spend on these campaigns while closely monitoring marginal ROAS. Testing controlled budget increases and managing creative fatigue will help unlock additional profit without oversaturation or audience cannibalization.
+
+#### 2. Counter Rising CPA Through Creative and Funnel Optimization
+
+The gradual increase in CPA and slight decline in ROAS signal early efficiency pressure. Priority should be placed on refreshing high-performing creatives and testing new angles to sustain CTR, alongside targeted landing page and funnel optimizations to preserve conversion rates as media costs rise.
+
+#### 3. Exploit Seasonal Momentum Identified in January
+
+The January spike in CTR and profit presents a clear opportunity. Further research into messaging, offers, and creative themes used during this period can inform seasonally adjusted campaigns. Testing “resolution-driven” positioning outside January may help replicate this performance uplift throughout the year.
+
+#### 4. Drive Volume Growth in Secondary Markets
+
+With ROAS consistent across markets, higher profitability is driven by conversion volume rather than efficiency differences. Increasing spend and improving localization in Germany and Belgium represents a scalable growth opportunity, allowing Supps& to diversify revenue while maintaining current performance levels.
+
+
 
